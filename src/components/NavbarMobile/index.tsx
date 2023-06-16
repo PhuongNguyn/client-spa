@@ -46,7 +46,7 @@ const NavbarMobile = () => {
             <Hamburger toggled={toggleSidebar} toggle={setToggleSidebar} />
           </div>
           <div className="navbar-mobile-logo">
-          <img width={90} src="/images/logo.png" />
+            <img width={90} src="/images/logo.png" alt="delis-spa"/>
           </div>
           <div className="navbar-mobile-search">
             <BsSearch className="cursor-pointer" size={20} />

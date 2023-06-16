@@ -5,7 +5,7 @@ const NavbarScroll = () => {
     <div className="fixed w-full navbar-scroll navbar px-4">
       <div className="2xl:container flex justify-between items-center">
         <div className="navbar-scroll-logo">
-          <img src="/images/logo.png" width={100} height={80} />
+          <img src="/images/logo-no-name.png" width={90} height={70} />
         </div>
         <div>
           <ul>

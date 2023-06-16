@@ -163,7 +163,7 @@ body {
   display: inline-block;
   text-transform: uppercase;
   padding: 16px 24px;
-  font-size: 20px;
+  font-size: 21px;
   transition: 0.2s;
   position: relative;
 }
@@ -327,7 +327,7 @@ body {
 }
 
 .introduce-content {
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 20px;
   line-height: 35px;
 
@@ -586,6 +586,7 @@ body {
     &-detail {
       padding: 80px;
       box-sizing: border-box;
+      font-size: 18px;
 
       &-author {
         font-weight: bold;
@@ -1103,7 +1104,7 @@ body {
   }
 
   .introduce-content {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 25px;
 
     &-slogan {
