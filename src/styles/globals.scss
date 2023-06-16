@@ -10,6 +10,7 @@ $box-shadow-standard: 0px 0px 5px rgba(163, 163, 163, 0.4);
 $box-shadow-navbar-scroll: 0px 0px 4px rgba(0, 0, 0, 0.3);
 $text-color-bolder: rgb(62, 62, 62);
 $service-active: #eaeaea;
+$icon-get-promotion-color-blink: #e0bc68;
 
 
 * {
@@ -906,7 +907,19 @@ body {
   }
 }
 
+.icon-social-footer{
+  animation: blink 1s infinite;
+  animation-delay: 1s;
+}
 
+
+@keyframes blink {
+    to{
+      color: $icon-get-promotion-color-blink;
+      fill: $icon-get-promotion-color-blink;
+    } 
+   
+}
 
 @keyframes menu-drop-down {
   from {
