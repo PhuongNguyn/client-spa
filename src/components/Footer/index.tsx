@@ -34,18 +34,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-logo flex-1">
-        <div className="flex justify-center">
-          <img
-            className="footer-logo-image"
-            src="/images/logo.png"
-            width={180}
-            height={150}
-            alt="delis spa"
-          />
-        </div>
-      </div>
-
       <div className="footer-address text-center">
         <p className="footer-address-name text-bold">Delis Spa Nha Trang</p>
         <p className="footer-address-content">
